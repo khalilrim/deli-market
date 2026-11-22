@@ -1,0 +1,17 @@
+{
+  "name": "deli-market",
+  "version": "1.0.0",
+  "description": "Noyau métier typé, modulaire et testé de Deli Market, boutique en ligne d'Abidjan",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "tsc && cd dist && node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
